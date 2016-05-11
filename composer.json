@@ -28,8 +28,8 @@
     },
     "minimum-stability": "stable",  
     "require": {
-        "illuminate/validation": "^5.2",
-        "illuminate/support": "^5.2",
+        "illuminate/validation": "^5.0",
+        "illuminate/support": "^5.0",
         "php": "^5.5.9|^7.0"
     },
     "require-dev": {
