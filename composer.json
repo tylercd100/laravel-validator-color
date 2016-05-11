@@ -1,6 +1,6 @@
 {
     "name": "zenapply/laravel-validator-color",
-    "description": "",
+    "description": "Validate that a certain value is a valid CSS color string in Laravel 5",
     "keywords": [
         "laravel",
         "validator",
