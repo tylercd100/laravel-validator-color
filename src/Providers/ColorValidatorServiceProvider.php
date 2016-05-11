@@ -29,6 +29,22 @@ class ColorValidatorServiceProvider extends ServiceProvider
             $factory->extend('color', function($attribute, $value, $parameters, $validator) use ($colorValidator) {
                 return $colorValidator->isColor($value);
             });
+
+            $factory->extend('color_hex', function($attribute, $value, $parameters, $validator) use ($colorValidator) {
+                return $colorValidator->isColorAsHex($value);
+            });
+
+            $factory->extend('color_rgb', function($attribute, $value, $parameters, $validator) use ($colorValidator) {
+                return $colorValidator->isColorAsRGB($value);
+            });
+
+            $factory->extend('color_rgba', function($attribute, $value, $parameters, $validator) use ($colorValidator) {
+                return $colorValidator->isColorAsRGBA($value);
+            });
+
+            $factory->extend('color_keyword', function($attribute, $value, $parameters, $validator) use ($colorValidator) {
+                return $colorValidator->isColorAsKeyword($value);
+            });
         });
     }
 }
