@@ -1,4 +1,6 @@
-<?php namespace Zenapply\Validator\Validators;
+<?php 
+
+namespace Tylercd100\Validator\Validators;
 
 class ColorValidator {
 

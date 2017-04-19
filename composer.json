@@ -1,14 +1,14 @@
 {
-    "name": "zenapply/laravel-validator-color",
+    "name": "tylercd100/laravel-validator-color",
     "description": "Validate that a certain value is a valid CSS color string in Laravel 5",
     "keywords": [
         "laravel",
         "validator",
         "color",
         "tylercd100",
-        "zenapply"
+        "tylercd100"
     ],
-    "homepage": "https://github.com/zenapply/laravel-validator-color",
+    "homepage": "https://github.com/tylercd100/laravel-validator-color",
     "license": "MIT",  
     "authors": [
         {
@@ -18,12 +18,12 @@
     ],
     "autoload":{
         "psr-4":{
-            "Zenapply\\Validator\\":"src/"
+            "Tylercd100\\Validator\\":"src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zenapply\\Validator\\Tests\\": "tests/"
+            "Tylercd100\\Validator\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",  

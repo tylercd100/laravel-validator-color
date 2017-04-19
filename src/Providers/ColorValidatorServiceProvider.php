@@ -1,7 +1,9 @@
-<?php namespace Zenapply\Validator\Providers;
+<?php
+
+namespace Tylercd100\Validator\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Zenapply\Validator\Validators\ColorValidator;
+use Tylercd100\Validator\Validators\ColorValidator;
 
 class ColorValidatorServiceProvider extends ServiceProvider
 {

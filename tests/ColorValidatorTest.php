@@ -1,9 +1,9 @@
 <?php
 
-namespace Zenapply\Validator\Tests;
+namespace Tylercd100\Validator\Tests;
 
 use Validator;
-use Zenapply\Validator\Validators\ColorValidator;
+use Tylercd100\Validator\Validators\ColorValidator;
 
 class ColorValidatorTest extends TestCase
 {

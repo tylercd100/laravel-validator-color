@@ -1,6 +1,6 @@
 <?php
 
-namespace Zenapply\Validator\Tests;
+namespace Tylercd100\Validator\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -24,7 +24,7 @@ class TestCase extends Orchestra
      */
     protected function getPackageProviders($app)
     {
-        return ['Zenapply\Validator\Providers\ColorValidatorServiceProvider'];
+        return ['Tylercd100\Validator\Providers\ColorValidatorServiceProvider'];
     }
 
     /**
