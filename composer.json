@@ -5,7 +5,6 @@
         "laravel",
         "validator",
         "color",
-        "tylercd100",
         "tylercd100"
     ],
     "homepage": "https://github.com/tylercd100/laravel-validator-color",
@@ -18,12 +17,12 @@
     ],
     "autoload":{
         "psr-4":{
-            "Tylercd100\\Validator\\":"src/"
+            "Tylercd100\\Validator\\Color\\":"src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tylercd100\\Validator\\Tests\\": "tests/"
+            "Tylercd100\\Validator\\Color\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",  

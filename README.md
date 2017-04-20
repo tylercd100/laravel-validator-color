@@ -18,7 +18,7 @@ composer require tylercd100/laravel-validator-color
 
 Now add the following to the `providers` array in your `config/app.php`
 ```php
-Tylercd100\Validator\Providers\ColorValidatorServiceProvider::class
+Tylercd100\Validator\Color\ServiceProvider::class
 ```
 
 ## Usage
