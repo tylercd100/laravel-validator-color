@@ -2,6 +2,9 @@
 
 All notable changes to `laravel-validator-color` will be documented in this file.
 
+### 3.0.1
+- Fixed test file
+
 ### 3.0.0
 - Changed Namespaces
 
