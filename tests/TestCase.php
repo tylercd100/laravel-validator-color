@@ -24,7 +24,7 @@ class TestCase extends Orchestra
      */
     protected function getPackageProviders($app)
     {
-        return ['Tylercd100\Validator\Color\ValidatorServiceProvider'];
+        return ['Tylercd100\Validator\Color\ServiceProvider'];
     }
 
     /**
