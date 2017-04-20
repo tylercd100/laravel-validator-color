@@ -3,7 +3,7 @@
 namespace Tylercd100\Validator\Color;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
-use Tylercd100\Validator\Validators\ColorValidator;
+use Tylercd100\Validator\Color\Validator as ColorValidator;
 
 class ServiceProvider extends IlluminateServiceProvider
 {
